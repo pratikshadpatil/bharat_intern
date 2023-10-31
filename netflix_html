@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" 
+     href="C:\Users\91800\OneDrive\Documents\html&css_progrmms\-11621687999bdzjjrtqvy.png"
+     type="image/x-icon">
+    <title> Netfix</title>
+    <link rel="stylesheet" href="netflix.css"/>
+    <!--<script src="netflix.js"></script>-->
+</head>
+<body>
+   <div class="root">
+    <nav class="navbar">
+        <img class="img_logo" src="C:\Users\91800\Downloads\netflix_logo-removebg-preview.png" alt="netflix_logo">
+       <div class="btn_sign_in">Sign in</div>
+    </nav>
+    <div class="main-container">
+        <div class="main-titles-container">
+            <h1 class="main-title">Unlimited movies, TV shows <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and more.</h1>
+            <h2 class="main-subtitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Watch anywhere. Cancel anytime.</h2>
+            <p class="main-call-to-action">
+                Ready to Watch?Enter your email to create or restart your membership
+            </p>
+        </div>
+    <div class="main-email-container">
+        <input class="main-email-container-input" type="text" placeholder="email address">
+        <div class="btn-get-started">Get Started :></div>
+    </div>
+    </div>
+</body>
+</html>
