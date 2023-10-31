@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+   <link rel=" stylesheet" href="temperature.css">
+   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   <div class="container">
+    <div class="temperature-converter">
+        <div class="mobile">
+            <p>9.30 AM</p>
+        <br><br>
+                <i class="bx bx-signal-4"></i>
+                <i class="bx bx-wifi"></i>
+                <i class="bx bxs-battery"></i>
+             
+            
+        </div>
+        <h2 class="title">Temperature Converter</h2>
+
+        <div class="result">
+            <span class="result-heading">Result(celcius)</span>
+            <h2 class="celsius-value" id="celsius"></h2>
+        </div>
+
+        <div class="degree-type">
+            <div class="degree-field">
+                <label for="degree">Degrees</label>
+               <input type="number" name="degree" id="degree">
+            </div>
+
+            <div class="temp-fiel">
+                <label for="temp-type">Type</label>
+                <select name="temperatures" id="temp-type" autocomplete="on">
+                 <option value="fahrenheit" id="fahrenheit">Fahrenheit</option>
+                 <option value="kelvin" id="kelvin">Kelvin</option>
+                </select>
+            </div>
+        </div>
+
+        <button id="convert-btn">Convert</button>
+     </div>
+   </div>
+   <script src="temperature.js"></script>
+</body>
+</html>
